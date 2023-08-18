@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Your Portfolio</title>
+    <style>
+      .transition-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000; /* Set your desired background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        animation: fadeOut 2.5s ease-in;
+      }
+
+      .eye {
+        width: 100px; /* Set your desired size */
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .blindfolded-eye {
+        background-image: url("blindfolded-eye.png"); /* Replace with your image path */
+      }
+
+      .open-eye {
+        background-image: url("open-eye.png"); /* Replace with your image path */
+        opacity: 0;
+      }
+
+      .portfolio-content {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="transition-container">
+      <div class="eye blindfolded-eye"></div>
+      <div class="eye open-eye"></div>
+    </div>
+    <div class="portfolio-content">
+      <!-- Your portfolio content goes here -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
