@@ -1,0 +1,4 @@
+width of inline elements can not be changed
+whereas widht block elements can be changed
+
+inline-block: stays in same row and width can be also changed

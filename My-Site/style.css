@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background-color: rgb(199, 199, 246); */
+  background-color: #f3f1f7;
+}
+.top {
+  color: #eca2fd;
+  width: 50%;
+  /* height: 200px; */
+  padding: 20px;
+  margin: 10px auto;
+  /* have no effect on the size, simply cretaes spacing */
+  /* border: 10px solid pink; */
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+p {
+  display: inline;
+  width: 200px;
+}
+span {
+  display: inline-block;
+  width: 200px;
+}
+/* .middle,
+.bottom {
+  width: 200px;
+  height: 200px;
+}
+.middle {
+  background-color: rgb(219, 162, 162);
+  margin-left: 260px;
+  border: 20px solid red;
+}
+.bottom {
+  background-color: rgb(211, 211, 255);
+  margin-left: 500px;
+  margin-top: -10px;
+} */
