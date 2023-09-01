@@ -2,3 +2,48 @@ width of inline elements can not be changed
 whereas widht block elements can be changed
 
 inline-block: stays in same row and width can be also changed
+
+1st September 2023
+#Section 1: Front-End Web Development
+
+--> How does Interent work? <--
+Physical cabels connecting different devices 
+
+Then there are special devices : servers 
+They are open 24/7 in order to provide service whenever requested
+
+Whenever we type an URL (Uniform Resource Locator) in the address bar/ search bar 
+Message is sent to ISP (Interent Service Provider) that the client wants to see a web page with the given URL
+for example : www.google.com
+Then this URL is sent to DNS (Domain Name Server), DNS is like a Telephone Directory
+An Internet Protocol (IP) address is the unique identifying number assigned to every device connected to the internet.
+Communication is done with the help of IP address (like a postal code)
+
+HTML
+HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages on the world wide web. HyperText allows a user to click a link and be redirected to a new page referenced by that link.
+
+--> Hyper Text <--
+Text snippets that help to link different documents on the web
+
+-->Markup Language <--
+A markup language is a text-encoding system consisting of a set of symbols inserted in a text document to control its structure, formatting, or the relationship between its parts. Markup is often used to control the display of the document or to enrich its content to facilitate automated processing.
+
+--> Tag vs Element <--
+Tag: <h1>
+Element: <h1>HELLO</h1>
+
+--> Lorem Ipsum <--
+Comes from a Latin Classical Literature written by Cicero 2000 years old
+
+--> void elements <--
+<hr/> and <br/>
+A void element is an element whose content model never allows it to have contents under any circumstances. 
+
+Void elements can have attributes.
+
+For example, consider the <img> element, which is a common void element used for displaying images. It can have several attributes, such as:
+
+src: Specifies the source URL of the image.
+alt: Provides alternative text for the image (useful for accessibility).
+width: Sets the width of the image in pixels.
+height: Sets the height of the image in pixels.
